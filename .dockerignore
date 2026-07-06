@@ -1,0 +1,23 @@
+# Ignore environments and secrets
+.env
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Git
+.git/
+.gitignore
